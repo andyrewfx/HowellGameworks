@@ -57,7 +57,7 @@ The core architecture consists of four interconnected systems:
 ## 📂 Public Documentation Directory
 
 - [**Public Ecosystem Roadmap**](./PUBLIC_STUDIO_ECOSYSTEM_ROADMAP.md): High-level multi-phase engineering status, completed milestones, and upcoming capabilities.
-- [**Portfolio Demo Reel & Showcase Guide**](../showcase_demo_reel_and_teaser_shot_list.md): Detailed shot list, timings, and technical brag points for engineering hiring managers.
+- [**Portfolio Demo Reel & Showcase Guide**](coming soon): Detailed shot list, timings, and technical brag points for engineering hiring managers.
 
 ---
 
