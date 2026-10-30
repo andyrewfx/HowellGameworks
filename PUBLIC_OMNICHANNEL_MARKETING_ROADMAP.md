@@ -1,36 +1,33 @@
-# Howell Gameworks Studio - Public Omnichannel Marketing Roadmap
+# Howell Gameworks - Omnichannel Project Roadmap
 
-This roadmap describes the intended customer-facing journey for product discovery, release promotion, commerce, and production. It is about product outcomes, not internal implementation. The product is in development and has **not yet entered a customer pilot**.
+**Current direction — October 2026**
 
-## The experience we are working toward
+This roadmap focuses on the customer-facing journey: prepare products, promote a release, support discovery and commerce across chosen channels, and carry product selections into production workflows. It describes direction and current priorities; the [product progress page](./PUBLIC_PRODUCT_PROGRESS.md) provides the fuller capability update.
 
-Help a small collectibles business prepare a product release, present it consistently across its chosen channels, and carry the selected products into commerce and production workflows without losing track of the release.
+## Current focus
 
-## Progress and direction
+1. **Refine release planning and promotion.** Continue improving how products are grouped into drops, selected for channels, and prepared for promotional materials.
+2. **Validate marketplace connections.** Etsy authorization groundwork exists. Continue evaluating what additional listing and order workflows require before claiming end-to-end integration.
+3. **Improve commerce-to-production continuity.** Reduce friction between product discovery, order handling, and print preparation.
+4. **Clarify operational visibility.** Identify useful ways to understand release activity and production work.
 
-| Stage | Status | What this means |
-| :--- | :--- | :--- |
-| Prepare product presentations | Built and evolving | Create and adapt product visuals for supported merchandise formats. |
-| Organize and promote a release | Built and demonstrated | Plan drops, select channels, and prepare promotional materials. |
-| Support community product discovery | Demonstrated | Present products in community-oriented commerce experiences. |
-| Connect marketplace workflows | In progress | Develop channel connections; an individual authorization or setup flow does not mean full listing, order, or fulfillment sync is available. |
-| Coordinate orders and production | In progress / evolving | Improve continuity between commerce activity and print/fulfillment preparation. |
-| Understand cross-channel activity | Planned | Explore useful, privacy-conscious views of release and production activity. |
+## Planned direction
 
-## Near-term focus
+- Develop marketplace listing and order workflows incrementally, validating each channel before describing it as available.
+- Improve connections between promotion, community discovery, commerce, and print/fulfillment preparation.
+- Explore cross-channel activity and production reporting.
+- Evaluate additional channels as the product and integration scope mature.
 
-1. Refine the release-planning and promotional workflow.
-2. Continue validating marketplace and commerce connections one channel at a time.
-3. Improve the handoff from product selections to production preparation.
-4. Identify what operators need to see to understand release and fulfillment status.
+These are priorities for exploration and development, not scheduled releases. Channel coverage and sequence may change.
 
-These are development priorities, not delivery commitments. Channel coverage, sequence, and scope may change as the product is built and evaluated.
+## Status and scope
 
-## What this roadmap does not claim
+Howell Gameworks is in active development and **has not yet entered a customer pilot**. The project includes multiple tools and workstreams; this roadmap describes a shared direction, not a claim that all capabilities already operate as one integrated service.
 
-- The product is not yet in a customer pilot.
-- A feature marked built or demonstrated is not necessarily generally available or production-ready.
-- No marketplace integration is being represented as a complete, live end-to-end service.
-- No launch dates, sales results, customer outcomes, or performance claims are implied.
+No marketplace connection is represented here as a complete, generally available end-to-end service. No customer deployments, launch dates, sales outcomes, or performance claims are implied.
 
-For the broader progress history, see the [historical progress archive](./PUBLIC_PROGRESS_ARCHIVE.md). For current product status, see the [public product roadmap](./PUBLIC_STUDIO_ECOSYSTEM_ROADMAP.md).
+For demos, current capabilities, and development updates, see the [product progress page](./PUBLIC_PRODUCT_PROGRESS.md) and [project overview](./README.md).
+
+---
+
+This public roadmap focuses on product outcomes and direction, not proprietary implementation details.
