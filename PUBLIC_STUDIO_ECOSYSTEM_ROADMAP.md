@@ -1,40 +1,43 @@
 # Howell Gameworks - Public Product Roadmap
 
-This roadmap shares product direction and progress at a capability level. It is intended to help prospective collaborators, pilot customers, hiring teams, and investors understand what the studio is exploring without publishing proprietary implementation details.
+This roadmap shares product progress and direction at a capability level. It is intended to make the work legible to creators, collaborators, hiring teams, and investors without publishing proprietary implementation details.
 
 ## Current snapshot
 
 | Area | Status | Public summary |
 | :--- | :--- | :--- |
-| Creative studio | Built and demonstrated | Core workflows for finding, shaping, and presenting collectible and tabletop product assets. |
-| Product discovery | Built and demonstrated | Experiences for browsing and presenting product catalogs in community-led settings. |
-| Print preparation | Core workflows in place | Tools for organizing selected products and preparing repeatable print outputs. |
-| Content presentation and moderation | Built and demonstrated | Visual workflows for reviewing and presenting content with audience-aware controls. |
-| Cross-channel commerce and fulfillment | In progress | Connecting commerce and production workflows across channels and improving the end-to-end experience. |
-| Operational visibility | Planned | Exploring ways to make activity and workflow performance easier to understand. |
+| Live interactive experiences | Built and evolving | Stream-friendly games and audience activities are part of the product portfolio. |
+| Trading-card release information | Built and being refined | TCG Vision organizes release information, including upcoming and released products. |
+| Collection tools and discovery | In development | BatVault work focuses on personal collection management and card/community exploration. |
+| Creative and production workflows | Demonstrated | Product presentation, print preparation, and visual content-moderation work are shown in the demos. |
+| AI-assisted research and planning | In development | Experiments support card scouting, game-event ideas, and release planning; outputs require human review. |
+| Marketplace connectivity | In progress | Connecting product workflows with marketplace services, including Etsy, is under development and is not generally available. |
 
-## What we are working toward
+## What is new
 
-### In progress: connected commerce and production
+- **Clearer release views:** the release calendar distinguishes upcoming products from releases that are already out, with improvements to managing release entries.
+- **More connected collection exploration:** ongoing BatVault work brings personal collection tools and card discovery closer together.
+- **Research and planning experiments:** AI-assisted work is being explored for card scouting, game-event planning, and release management. These are evolving workflows, not guarantees of accuracy or automated decisions.
+- **Marketplace connection groundwork:** development is underway to connect product and marketplace workflows. No customer-facing availability or launch date is being announced.
 
-The current focus is on making the journey from product discovery through order handling and production preparation feel more connected. Specific integrations and release timing depend on development and validation.
+## What comes next
 
-### Planned: useful operational insight
+1. Continue refining core creative, collection, and interactive experiences.
+2. Improve the connections between product discovery, commerce, and production workflows.
+3. Validate integrations and workflow reliability before making availability claims.
+4. Learn from feedback as the product develops; customer pilots have **not yet started**.
 
-We plan to explore practical reporting that helps small teams understand activity across their workflows and make better decisions about what to create, offer, and produce.
-
-### Ongoing: learning with potential pilot users
-
-Feedback from creators and collectibles businesses can help shape which workflows matter most. We are open to conversations about pilot opportunities; scope, availability, and timing will be discussed individually rather than implied by this roadmap.
+The sequence and scope may change as development continues. No delivery dates are implied.
 
 ## How to read this roadmap
 
-- **Built and demonstrated** describes capabilities shown in the current portfolio; it does not guarantee general availability or production readiness.
-- **In progress** and **planned** are directional priorities, not delivery commitments.
-- Product scope may change as we learn from development and user feedback.
+- **Built and evolving** describes work that exists and continues to be refined; it does not mean generally available.
+- **Demonstrated** means selected work is shown in a product demo; it does not guarantee production readiness.
+- **In development** and **in progress** describe active work, not a launch commitment.
+- **Planned** areas are exploratory and may change.
 
-For a quick look at current work, see the [product demos in the project overview](./README.md#product-demos).
+For demos and a broader product overview, see the [project overview](./README.md).
 
 ## Public scope
 
-This roadmap describes outcomes and direction only. It does not document internal architecture, implementation specifics, private operational details, or customer data.
+This roadmap describes user-facing capabilities and direction. It does not document internal architecture, implementation specifics, private operational details, or customer data.
