@@ -1,62 +1,71 @@
-# Howell Gameworks - Product Progress & Capabilities
+# Howell Gameworks - Product Progress
 
-**Current public snapshot — October 2026**
+**Current public snapshot — October 30, 2026**
 
-This page describes work built and demonstrated across Howell Gameworks Studio and the creative, commerce, and production workstreams in the Howell Gameworks public project. These are related areas of work, not a claim that every tool is one integrated product. This is a current capability overview—not a dated archive, release promise, or claim that every feature is generally available.
+Howell Gameworks is building two complementary TCG/CCG products. **TCG Battleship** serves creators and businesses building, marketing, and producing card products. **Novus TCG** serves collectors and communities organizing, discovering, and sharing their collections. This report separates operating capabilities from integrations and analytics that are still in progress.
 
-## Creative studio and product presentation
+## TCG Battleship: create, market, sell, and produce
 
-- A card-focused creative workspace with fast asset search, a streamlined canvas, and adaptable design controls.
-- Visual framing and product presentation for trading cards, small and large art prints, and stickers.
-- Merchandise preview workflows for presenting products in different formats.
+TCG Battleship is an operational end-to-end workflow for managing card products: build and edit a card catalog, prepare creative assets and product formats, promote and sell products, then organize orders for physical print and fulfillment.
 
-## Print and production workflows
+### Creation and creative production
 
-- Persistent organization of selected print jobs and automated sheet preparation.
-- Paired front-and-back print layouts and ordered production runs.
-- Connections between product selection, interactive events, and print preparation.
+- Build and manage card sets and catalogs in a dedicated creative studio.
+- Edit artwork and prepare different presentations for trading cards, art prints, and stickers.
+- Create previews and promotional materials for products and releases.
+- Organize print jobs, prepare print sheets, and support paired card fronts and backs.
 
-## Commerce, discovery, and marketing
+### Live streaming and sales
 
-- Product catalog discovery and community-oriented browsing.
-- Discord product browsing, cart, and customer interaction experiences.
-- Drop-planning and channel-selection workflows, with promotional-sheet creation.
-- Audience-aware content presentation and moderation.
+- Operate live stream games, session queues, winner displays, and card-art overlays.
+- Send stream wins and other selected items into print and fulfillment workflows.
+- Sell through a custom Discord channel connected to the platform, including product discovery, cart, checkout, and print-on-demand order handling.
+- Import Whatnot Show Reports, match reported purchases to stream activity where possible, and carry matched items into order and print workflows.
+- Sell through Etsy; seller-side listing and management tooling is being connected to the broader workflow.
 
-## Howell Gameworks Studio
+### Operations and analytics already in use
 
-- A portfolio of interactive, stream-friendly games and audience activities.
-- **TCG Vision:** a public trading-card release calendar that separates upcoming and released products, with release-management tools and public release data.
-- **BatVault:** personal trading-card collection management and card discovery.
-- A card storefront with checkout, collection inventory, and market-price views documented in the Studio changelog.
-- Interactive formats including spin-wheel, pick-and-reveal, racing, trivia, and narrative game experiences.
+- Track sales and inventory activity in the Battleship business tools.
+- Review Whatnot and Discord/VOD print-on-demand sales in a shared analytics view.
+- Examine recorded revenue and units, popular cards or characters, frequent buyers, channel totals, and observed purchase timing.
+- Keep sale, giveaway, and fulfillment activity distinct where source data supports it.
 
-## Recent Studio updates
+These tools provide meaningful business visibility today, but they are not yet a complete measurement system for every marketing channel. In particular, purchase reporting is not the same as measuring audience exposure, conversion, or actual physical print counts.
 
-- TCG Vision release views distinguish upcoming products from released products; its management tools include release editing and data import/export.
-- The Studio changelog records a public release-data endpoint and improvements to release-management workflows.
-- Storefront updates include clearer sign-in requirements for secure transactions and stability fixes across store and item-detail experiences.
+## Novus TCG: collector and community platform
 
-## In development
+Novus TCG is a self-contained, AI-driven TCG collection, portfolio, and social platform. It is designed to serve collectors directly while also supporting streamer and community experiences.
 
-- **Etsy authorization groundwork:** the Studio project contains an authorization handoff. Marketplace listing, order synchronization, and fulfillment tracking are not being represented as complete.
-- **AI-assisted research and planning:** experiments support card scouting, game-event ideas, and release management. Outputs require human review and are not authoritative data.
-- Continued refinement of product discovery, collection/release tools, storefront flows, and connections between commerce and production.
+- Organize collections into folders and portfolio views.
+- Discover cards and collection information with AI-assisted tools.
+- Set local alerts for trading-card releases and drops.
+- Connect collection and community experiences with Discord.
+- Work with live product inventory and sales integrations.
+- Support streamer-facing games, tools, and leaderboard experiences.
 
-## How to interpret these updates
+Novus TCG and TCG Battleship are distinct product tracks within a larger ecosystem vision: one supports the people who create, promote, and produce card products; the other supports the collectors and communities around them.
 
-- **Built** means the capability is represented in the project.
-- **Demonstrated** means selected work is shown in a product demo.
-- **In development** means active development work; it does not mean complete.
-- None of these labels guarantees general availability, production readiness, or customer adoption.
+## Channel status
 
-Howell Gameworks is in active development and **has not yet entered a customer pilot**.
+| Channel | Current status |
+| :--- | :--- |
+| **Custom Discord commerce** | Sales and print-on-demand order workflows are live and connected to TCG Battleship. |
+| **Whatnot** | Live stream workflows and post-show Show Report purchase capture are in use. The report import supports sales and customer analytics; a live auction companion is a separate proposed project, not an existing feature. |
+| **Etsy** | Sales are live. Seller-side listing authorization and management tooling are implemented and being validated; automated receipt/order reconciliation into print fulfillment still needs real-order validation. |
+| **eBay** | Early integration groundwork is in progress. eBay sales/listing integration is not live. |
 
-## Demos
+“Sales are live” describes current selling activity; it does not mean that every channel has a completed API integration with centralized order and fulfillment synchronization.
 
-- [Novus TCG Battleship - UI overhaul walkthrough (10 minutes)](https://www.youtube.com/watch?v=91VcT2raAP8)
-- [Censor Suite - demo](https://www.youtube.com/watch?v=KDpvw2RZcWQ)
+## Analytics: delivered and still ahead
 
-The videos show selected work and may not represent the current interface or the complete product scope.
+**Implemented foundation:** Whatnot Show Report purchases and paid Discord/VOD POD card orders feed an initial shared analytics slice. It includes buyer and product summaries, channel attribution where available, and separate treatment for giveaways and incomplete data.
 
-For planned next steps, see the [omnichannel project roadmap](./PUBLIC_OMNICHANNEL_MARKETING_ROADMAP.md).
+**Still to build:** extend reliable order capture to Etsy and eBay; strengthen shared attribution across all channels; record actual physical print events; and develop broader business reporting that relates customer engagement and marketing activity to sales across live streams, Discord, and passive marketplace sales.
+
+Today’s observed purchase-time patterns and sales totals describe the records available to the system. They do not yet provide complete exposure-adjusted conversion or prove a complete historical sales/print ledger.
+
+## Stage and working approach
+
+The core TCG Battleship workflow is operational, and some channels are already selling. **External customer pilots have not yet started.** The work is founder-led, with integrations developed incrementally so current sales workflows can remain stable while new channels and analytics are validated.
+
+For priorities and future direction, see the [omnichannel product roadmap](./PUBLIC_OMNICHANNEL_MARKETING_ROADMAP.md).
