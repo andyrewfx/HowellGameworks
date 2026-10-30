@@ -1,47 +1,36 @@
-# Howell Gameworks
+# Howell Gameworks Studio
 
-Howell Gameworks is an independent product studio building software for tabletop gaming, trading-card collecting, and creator-led commerce. The work explores how interactive experiences, useful product information, and creative-to-production workflows can fit together for small teams.
+Howell Gameworks Studio is developing creative and commerce workflows for collectible products, from preparing product presentations to organizing drops and print production.
 
-## What we are building
+The public roadmap is centered on this studio and its omnichannel marketing and fulfillment work. It is not a combined roadmap for every Howell Gameworks project.
 
-- **Live interactive experiences** that help creators engage audiences with stream-friendly games and activities.
-- **Trading-card tools** for exploring collections, tracking releases, and finding useful product information.
-- **Creative and production workflows** for shaping product presentations and preparing physical merchandise.
-- **Community commerce experiences** that connect discovery and product presentation with evolving marketplace workflows.
+## What is new
 
-## Recent product work
+- **Drop planning and promotion:** a workspace for organizing multi-channel releases, with channel selection and promotional-sheet workflows.
+- **Product presentation:** creative tools for adapting product artwork and previews for different merchandise formats.
+- **Commerce workflow connections:** marketplace integration work is underway; individual channel capabilities are not all complete or generally available.
 
-- **A more useful release calendar:** TCG Vision presents upcoming and released products separately, with improvements to release entry management.
-- **Collection discovery:** BatVault work brings together personal collection management and ways to explore card and community information.
-- **AI-assisted research and planning:** development includes experiments for card scouting, game-event ideas, and release management. These workflows are evolving and should be treated as decision support, not authoritative product data.
-- **Marketplace connectivity:** work is underway on connecting product workflows with Etsy. This is development work, not a generally available integration.
-- **Creative studio and moderation demos:** recent walkthroughs show product-interface and visual content-presentation work.
-
-These are examples of development progress, not a statement that every feature is complete, generally available, or ready for production use.
-
-## Where we are
-
-The product is in active development and **has not yet entered a customer pilot**. Current work is focused on improving connected workflows, refining product experiences, and validating integrations. We will update this page as capabilities are demonstrated and priorities change.
-
-The [public roadmap](./PUBLIC_STUDIO_ECOSYSTEM_ROADMAP.md) gives a higher-level view of progress and planned areas. It does not promise release dates.
+For progress details, see the [public product roadmap](./PUBLIC_STUDIO_ECOSYSTEM_ROADMAP.md), the [omnichannel marketing roadmap](./PUBLIC_OMNICHANNEL_MARKETING_ROADMAP.md), and the [historical progress archive](./PUBLIC_PROGRESS_ARCHIVE.md).
 
 ## Product demos
 
 - [Novus TCG Battleship - UI overhaul walkthrough (10 minutes)](https://www.youtube.com/watch?v=91VcT2raAP8)
 - [Censor Suite - demo](https://www.youtube.com/watch?v=KDpvw2RZcWQ)
 
-The videos show work in progress and may not represent the current interface or final product scope.
+These are demonstrations of selected work, not a promise of general availability or a complete statement of product scope.
+
+## Where we are
+
+The product is in active development and **has not yet entered a customer pilot**. We are working on the product experience and commerce connections; no release dates or customer deployments are being announced.
 
 ## Follow along and connect
 
-We welcome thoughtful feedback, conversations with creators and collectibles businesses, and interest from engineering collaborators, hiring teams, and investors. This is an invitation to connect and learn about the work—not a claim that a customer pilot is currently available.
+We welcome interest from creators, collectibles businesses, engineering collaborators, hiring teams, and investors. To connect, visit [Andy Howell on GitHub](https://github.com/andyrewfx).
 
-To connect, visit [Andy Howell on GitHub](https://github.com/andyrewfx).
+## Public scope
 
-## About this repository
-
-This repository is a public overview and roadmap, not the product source. It focuses on user-facing capabilities and progress rather than proprietary implementation details, private operational information, or customer data.
+This repository describes the Howell Gameworks Studio product at a public, capability level. It does not publish internal architecture, private operational information, or customer data.
 
 ---
 
-Howell Gameworks
+Howell Gameworks Studio
