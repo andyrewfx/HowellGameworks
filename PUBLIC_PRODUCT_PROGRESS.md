@@ -2,70 +2,51 @@
 
 **Current public snapshot — October 30, 2026**
 
-Howell Gameworks is building two complementary TCG/CCG products. **TCG Battleship** serves creators and businesses building, marketing, and producing card products. **Novus TCG** serves collectors and communities organizing, discovering, and sharing their collections. This report separates operating capabilities from integrations and analytics that are still in progress.
+Howell Gameworks is a founder-led effort to build two complementary products: **TCG Battleship** for creating, marketing, selling, and producing card products, and **Novus TCG** for collectors and communities. The work below reflects the active product roadmap and current channel documentation; it distinguishes delivered workflows from integration work that is not yet complete.
 
-## TCG Battleship: create, market, sell, and produce
+## Progress delivered: TCG Battleship
 
-TCG Battleship is an operational end-to-end workflow for managing card products: build and edit a card catalog, prepare creative assets and product formats, promote and sell products, then organize orders for physical print and fulfillment.
+The active Battleship roadmap marks its initial twelve delivery phases complete or implemented. Together, they establish a working creator-to-commerce-to-production foundation:
 
-### Creation and creative production
-
-- Build and manage card sets and catalogs in a dedicated creative studio.
-- Edit artwork and prepare different presentations for trading cards, art prints, and stickers.
-- Create previews and promotional materials for products and releases.
-- Organize print jobs, prepare print sheets, and support paired card fronts and backs.
-
-### Live streaming and sales
-
-- Operate live stream games, session queues, winner displays, and card-art overlays.
-- Send stream wins and other selected items into print and fulfillment workflows.
-- Sell through a custom Discord channel connected to the platform, including product discovery, cart, checkout, and print-on-demand order handling.
-- Import Whatnot Show Reports, match reported purchases to stream activity where possible, and carry matched items into order and print workflows.
-- Sell through Etsy; seller-side listing and management tooling is being connected to the broader workflow.
-
-### Operations and analytics already in use
-
-- Track sales and inventory activity in the Battleship business tools.
-- Review Whatnot and Discord/VOD print-on-demand sales in a shared analytics view.
-- Examine recorded revenue and units, popular cards or characters, frequent buyers, channel totals, and observed purchase timing.
-- Keep sale, giveaway, and fulfillment activity distinct where source data supports it.
-
-These tools provide meaningful business visibility today, but they are not yet a complete measurement system for every marketing channel. In particular, purchase reporting is not the same as measuring audience exposure, conversion, or actual physical print counts.
-
-## Novus TCG: collector and community platform
-
-Novus TCG is a self-contained, AI-driven TCG collection, portfolio, and social platform. It is designed to serve collectors directly while also supporting streamer and community experiences.
-
-- Organize collections into folders and portfolio views.
-- Discover cards and collection information with AI-assisted tools.
-- Set local alerts for trading-card releases and drops.
-- Connect collection and community experiences with Discord.
-- Work with live product inventory and sales integrations.
-- Support streamer-facing games, tools, and leaderboard experiences.
-
-Novus TCG and TCG Battleship are distinct product tracks within a larger ecosystem vision: one supports the people who create, promote, and produce card products; the other supports the collectors and communities around them.
-
-## Channel status
-
-| Channel | Current status |
+| Milestone | What has been delivered |
 | :--- | :--- |
-| **Custom Discord commerce** | Sales and print-on-demand order workflows are live and connected to TCG Battleship. |
-| **Whatnot** | Live stream workflows and post-show Show Report purchase capture are in use. The report import supports sales and customer analytics; a live auction companion is a separate proposed project, not an existing feature. |
-| **Etsy** | Sales are live. Seller-side listing authorization and management tooling are implemented and being validated; automated receipt/order reconciliation into print fulfillment still needs real-order validation. |
-| **eBay** | Early integration groundwork is in progress. eBay sales/listing integration is not live. |
+| **Phases 1–4: Creative Studio** | A card-focused studio with faster catalog search, a streamlined creative canvas, design tools, and reusable framing across product formats. |
+| **Phase 5 → Phase 11: Product previews** | Format-aware card, sticker, and art-print previews were moved into a later phase and delivered there; Phase 5 was not a separate abandoned feature. |
+| **Phase 6: Discord shop and cart** | Product discovery, multi-search, bulk add, cart, and checkout workflows. |
+| **Phase 7: Stream-to-print fulfillment** | Ordered stream work can be prepared as print packages with paired backs and item-level fulfillment context. |
+| **Phase 8: Audience protections** | Channel-aware content tiers, safe discovery and previews, and checks across browsing, checkout, and publishing. |
+| **Phase 9: Discord interactions** | A unified slash-command shop and cart with audience-aware autocomplete and search. |
+| **Phase 10: Safer previews** | Censorship and obscured-preview workflows for content that should not be shown openly. |
+| **Phase 12: Drop management** | Channel-aware drop planning and promotional workflows built around the existing Discord/VOD POD operation. |
 
-“Sales are live” describes current selling activity; it does not mean that every channel has a completed API integration with centralized order and fulfillment synchronization.
+This is not only a concept or a set of isolated mockups: the creator workflow, direct Discord sales path, stream tools, and print operations are connected. See the [TCG Battleship overview](./TCG_BATTLESHIP.md) for product capabilities and the [demos](./PUBLIC_DEMOS.md) for selected walkthroughs.
 
-## Analytics: delivered and still ahead
+## Current channel and integration work
 
-**Implemented foundation:** Whatnot Show Report purchases and paid Discord/VOD POD card orders feed an initial shared analytics slice. It includes buyer and product summaries, channel attribution where available, and separate treatment for giveaways and incomplete data.
+**Discord/VOD POD — operating.** Direct product discovery, cart, checkout, and print-on-demand order workflows are live and connected to Battleship.
 
-**Still to build:** extend reliable order capture to Etsy and eBay; strengthen shared attribution across all channels; record actual physical print events; and develop broader business reporting that relates customer engagement and marketing activity to sales across live streams, Discord, and passive marketplace sales.
+**Whatnot — operating stream and reporting workflows.** Stream games and operator tools are in use. After a show, Show Report imports match purchases to saved stream activity where possible and support fulfillment and sales analysis. A live-auction companion is not part of the current product; it remains a separate proposal.
 
-Today’s observed purchase-time patterns and sales totals describe the records available to the system. They do not yet provide complete exposure-adjusted conversion or prove a complete historical sales/print ledger.
+**Etsy — sales live; API-to-production workflow still being validated.** Seller-side listing creation and management tooling is connected to the platform, and Etsy sales are live. Receipt/order reconciliation and a verified handoff into print fulfillment still need real-order validation. These are separate tracks: live selling does not establish a complete API integration.
 
-## Stage and working approach
+**eBay — groundwork only.** Initial integration groundwork exists, but live eBay listings, sales, and order workflows are not in operation.
 
-The core TCG Battleship workflow is operational, and some channels are already selling. **External customer pilots have not yet started.** The work is founder-led, with integrations developed incrementally so current sales workflows can remain stable while new channels and analytics are validated.
+**Shared commerce foundation — partially delivered.** The roadmap establishes a shared order/event foundation and connects Discord/VOD POD orders and Whatnot Show Report imports. Marketplace-specific adapters and order-to-production flows remain separate pieces of work.
 
-For priorities and future direction, see the [omnichannel product roadmap](./PUBLIC_OMNICHANNEL_MARKETING_ROADMAP.md).
+For the detailed channel boundaries and analytics limits, see [Channel Status and Analytics](./PUBLIC_CHANNEL_STATUS_AND_ANALYTICS.md).
+
+## Analytics in use
+
+The first shared analytics slice combines matched Whatnot Show Report purchases with paid Discord/VOD POD card orders. Current reporting can summarize recorded customer and product activity, card/character interest, channel totals, units and revenue where supplied, and observed purchase timing. Giveaways and incomplete or ambiguous data are not treated as confirmed paid card sales.
+
+This is a useful starting point, not yet a complete marketing measurement or production ledger. Full cross-channel attribution, reliable Etsy/eBay order capture, exposure-to-conversion analysis, and durable records of actual physical print events remain future work.
+
+## Novus TCG
+
+Novus TCG is a distinct collector and community product, not another name for TCG Battleship. Its product experience is centered on AI-assisted collection discovery and organization, folders and portfolio views, social/community features, local release alerts, Discord connections, streamer games and leaderboards, and links to live inventory and sales. See the [Novus TCG overview](./NOVUS_TCG.md).
+
+## Stage and next steps
+
+The core TCG Battleship workflow is operational, with live sales in Discord and Etsy and active stream/report workflows around Whatnot. **External customer pilots have not yet started.** The next work prioritizes verifying marketplace order paths, extending trustworthy analytics, and keeping each channel's readiness visible instead of implying that the whole ecosystem is complete.
+
+The [public omnichannel roadmap](./PUBLIC_OMNICHANNEL_MARKETING_ROADMAP.md) describes the next outcomes, longer-term direction, and exploratory ideas. It does not publish private engineering detail or promise launch dates.

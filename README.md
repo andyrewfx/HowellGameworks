@@ -1,29 +1,23 @@
 # Howell Gameworks
 
-Howell Gameworks is a founder-led TCG and CCG software ecosystem built around two complementary products: **TCG Battleship**, a card creation, marketing, sales, and production platform; and **Novus TCG**, an AI-driven collector and community platform.
+**A founder-led TCG and CCG software ecosystem built from the creator workflow through to the collector experience.**
 
-Together, they address both sides of the hobby: helping creators build and sell card products, and helping collectors discover, organize, value, and share the cards they care about.
+Howell Gameworks is developing two distinct, complementary products:
 
-## Two product tracks
+- **[TCG Battleship](./TCG_BATTLESHIP.md)** helps creators build card catalogs, prepare creative assets and products, promote releases, sell, and carry orders into print and fulfillment.
+- **[Novus TCG](./NOVUS_TCG.md)** serves collectors and communities with AI-assisted collection tools, discovery, social features, release alerts, and streamer experiences.
 
-- **TCG Battleship:** create and manage card catalogs, prepare artwork and merchandise, promote releases, sell through community and marketplace channels, run streamer workflows, and carry orders into print and fulfillment.
-- **Novus TCG:** a self-contained collector and social experience for collections, folders, portfolios, release alerts, Discord-connected communities, live inventory and sales, and streamer games with leaderboards.
+The ambition is broad, but the work is being delivered in stages. The core TCG Battleship workflow is operational. Discord commerce and Etsy sales are live; Whatnot stream/report workflows are in use. Etsy API order-to-production work remains to be verified, and eBay is not yet a live sales channel. **External customer pilots have not yet started.**
 
-The products have distinct roles and are being developed as parts of a broader TCG/CCG ecosystem. See the [product progress report](./PUBLIC_PRODUCT_PROGRESS.md) for what is operating today and the [public roadmap](./PUBLIC_OMNICHANNEL_MARKETING_ROADMAP.md) for the next steps.
+## Explore
 
-## At a glance
+| Page | What it covers |
+| :--- | :--- |
+| [TCG Battleship](./TCG_BATTLESHIP.md) | The creator, commerce, streaming, and production product. |
+| [Novus TCG](./NOVUS_TCG.md) | The separate collector and community product. |
+| [Product progress](./PUBLIC_PRODUCT_PROGRESS.md) | Delivered milestones, current capabilities, and work still underway. |
+| [Omnichannel roadmap](./PUBLIC_OMNICHANNEL_MARKETING_ROADMAP.md) | Prioritized next outcomes, longer-term direction, and explorations. |
+| [Channel status and analytics](./PUBLIC_CHANNEL_STATUS_AND_ANALYTICS.md) | What each channel supports today and what the current data can—and cannot—show. |
+| [Product demos](./PUBLIC_DEMOS.md) | Selected video walkthroughs. |
 
-The core TCG Battleship creation-to-commerce-to-production workflow is operational. Discord commerce and Etsy sales are live; Whatnot sales reporting is connected to stream and sales workflows; broader Etsy order-to-production and eBay integrations are still being verified or developed. Novus TCG brings a separate collector, social, and streamer-facing product experience to the ecosystem.
-
-We have **not yet run external customer pilots**. We are a founder-led effort, building and integrating a broad product vision incrementally.
-
-## Product demos
-
-- [Novus TCG Battleship - UI overhaul walkthrough (10 minutes)](https://www.youtube.com/watch?v=91VcT2raAP8)
-- [Censor Suite - demo](https://www.youtube.com/watch?v=KDpvw2RZcWQ)
-
-These are selected demonstrations; individual integrations and capabilities have their own status in the public progress report.
-
-## Connect
-
-We welcome conversations with collectors, creators, streamers, collectibles businesses, potential collaborators, hiring teams, and investors. To connect, visit [Andy Howell on GitHub](https://github.com/andyrewfx).
+This is a founder-led effort. Howell Gameworks welcomes conversations with collectors, creators, streamers, collectibles businesses, potential collaborators, hiring teams, and investors. To connect, visit [Andy Howell on GitHub](https://github.com/andyrewfx).
