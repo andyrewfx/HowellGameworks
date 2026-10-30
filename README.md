@@ -1,73 +1,43 @@
-# Howell Gameworks Studio & Omnichannel Platform
+# Howell Gameworks
 
-Welcome to the **Howell Gameworks** technical portfolio and public roadmap workspace.
+Howell Gameworks is an independent product studio exploring tools that connect creative work, community-led commerce, and physical production for tabletop and collectibles businesses.
 
-Howell Gameworks designs and engineers physical & digital tabletop gaming experiences, creative tooling, live broadcast game engines, and full-stack print-on-demand fulfillment systems.
+Our goal is to help creators move from presenting an idea to organizing a product experience and preparing it for fulfillment, with workflows designed around the needs of small teams.
 
----
+## What we are building
 
-## 🎲 About Howell Gameworks
+- **Creative workflows** for organizing artwork, shaping product presentations, and preparing assets for different formats.
+- **Community commerce experiences** that help audiences discover and browse collectible products.
+- **Production preparation** that connects selected products with repeatable print and fulfillment workflows.
+- **Audience-aware presentation tools** that give operators more control over how content is previewed and shared.
 
-Founded by **Andy Howell**, Howell Gameworks bridges the gap between digital creative workflows and physical tabletop merchandise. From real-time card framing and digital printing automation to interactive community e-commerce bots, our software ecosystem powers high-throughput manufacturing, live interactive stream breaks, and multi-channel drop orchestration.
+These are connected product areas, not a claim that every workflow is generally available or production-ready.
 
----
+## Product progress
 
-## 🏛️ Ecosystem Architecture Overview
+- **Built and demonstrated:** core creative-studio workflows, product discovery and presentation, print preparation, and visual content-moderation experiences.
+- **In progress:** connecting commerce and production workflows across channels, while refining the end-to-end experience.
+- **Planned:** better operational visibility and reporting, informed by real-world workflow needs.
 
-The core architecture consists of four interconnected systems:
+The [public roadmap](./PUBLIC_STUDIO_ECOSYSTEM_ROADMAP.md) summarizes current priorities. Statuses are directional and may change as the product evolves.
 
-```
-┌────────────────────────────────────────────────────────────────────────┐
-│                        HOWELL GAMEWORKS ECOSYSTEM                      │
-├─────────────────────┬───────────────────────────┬──────────────────────┤
-│ 1. CREATIVE STUDIO  │ 2. FULFILLMENT & PRINT    │ 3. OMNICHANNEL & BOT │
-│ Canvas UI, Dynamic  │ Persistent Manifest Hub,  │ Discord API v10 Bot, │
-│ Framing, Multi-Crop │ Imposition Sheet Packer,  │ Multi-Format Cache,  │
-│ & Parametric Styles │ Duplex Print Alignment    │ Unified Commerce     │
-└─────────────────────┴───────────────────────────┴──────────────────────┘
-                                  │
-                                  ▼
-                 4. CONTENT SAFETY & MODERATION
-             Tiered Channels, Fail-Closed Security,
-             Dynamic Shaders & Safe Preview Windows
-```
+## Product demos
 
-1. **Card Studio & Zen Canvas**:
-   - High-density visual card design workstation handling thousands of assets with real-time CSS/DOM filtering (`Ctrl+F`).
-   - Side-by-side parametric drawer for real-time border, typography, and drop-shadow styling.
-   - Multi-target visual framing engine supporting cards (2.5×3.5), mini art (5×7), fine art (8×10), and die-cut vinyl stickers (3×5) from a single master asset.
+- [Novus TCG Battleship - UI overhaul walkthrough (10 minutes)](https://www.youtube.com/watch?v=91VcT2raAP8)
+- [Censor Suite - demo](https://www.youtube.com/watch?v=KDpvw2RZcWQ)
 
-2. **Persistent Print Hub & Automated Sheet Packer**:
-   - Production print manifest persisting queued physical print jobs across sessions.
-   - Dynamic 3×3 and 2-slot landscape card packing with automatic sheet imposition.
-   - Automated paired duplex sheet generation with mirrored backs for precision double-sided physical printing.
+The demos show work in progress and may not represent the current interface or final product scope.
 
-3. **Discord Commerce Engine & Interactive Bots**:
-   - Discord API v10 bot powered by `discord.js` v14 with sub-50ms indexed autocomplete choices.
-   - Ephemeral interactive kiosks (`/shop`, `/cart`, `/characters`, `/card`) for frictionless customer discovery.
-   - Format-aware dynamic asset swapping: customers can toggle between trading cards, matte vinyl stickers, clear tech decals, and archival matted art prints directly inside Discord embeds.
+## Collaboration
 
-4. **Visual Safety & Content Moderation Engine**:
-   - Multi-tiered audience protection (SFW, ECCHI, and age-verified NSFW).
-   - Automated server-side preview generator producing reverse-blur face highlighting, mosaic pixelation, and privacy filters.
-   - Fail-closed access control preventing unauthorized media distribution across public channels.
+We welcome conversations with potential pilot customers, creative and collectibles businesses, engineering collaborators, hiring teams, and investors. The product is actively evolving; a demo is not a commitment to commercial availability or a particular delivery date.
+
+To connect, visit [Andy Howell on GitHub](https://github.com/andyrewfx).
+
+## About this repository
+
+This repository is a public overview and roadmap, not the product source. It intentionally focuses on user-facing capabilities and progress rather than proprietary implementation details, private data, or customer-specific information.
 
 ---
 
-## 📂 Public Documentation Directory
-
-- [**Public Ecosystem Roadmap**](./PUBLIC_STUDIO_ECOSYSTEM_ROADMAP.md): High-level multi-phase engineering status, completed milestones, and upcoming capabilities.
-- [**Portfolio Demo Reel & Showcase Guide**](coming soon): Detailed shot list, timings, and technical brag points for engineering hiring managers.
-
----
-
-## 📬 Contact & Portfolio
-
-- **Creator / Lead Engineer**: Andy Howell
-- **Organization**: Howell Gameworks
-- **GitHub**: [github.com/andyrewfx](https://github.com/andyrewfx)
-- **Status**: Active Development & Engineering Showcase
-
----
-
-*© Howell Gameworks. All rights reserved.*
+Howell Gameworks
